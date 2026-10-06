@@ -1,4 +1,4 @@
-export const EXTENSION_VERSION = "0.1.0"; // x-release-please-version
+export const EXTENSION_VERSION = "0.2.0"; // x-release-please-version
 
 export type EventName =
   | "user_prompt" | "assistant_response" | "api_request" | "api_error"
