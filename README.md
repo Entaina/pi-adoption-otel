@@ -1,4 +1,4 @@
-# pi-otel
+# @entaina/pi-adoption-otel
 
 A [pi](https://pi.dev) extension that sends telemetry to **[Adoption](https://adoption.entaina.ai), our product**, using **OTLP/HTTP JSON** logs. Requires Node.js ≥ 22.19; tested with pi 1.0.4.
 
@@ -9,7 +9,7 @@ A [pi](https://pi.dev) extension that sends telemetry to **[Adoption](https://ad
 Once published on npm:
 
 ```bash
-pi install npm:pi-otel
+pi install npm:@entaina/pi-adoption-otel
 pi
 ```
 

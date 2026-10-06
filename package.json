@@ -1,9 +1,18 @@
 {
-  "name": "pi-otel",
+  "name": "@entaina/pi-adoption-otel",
   "version": "0.1.0",
   "description": "Full-content OTLP/HTTP JSON telemetry for pi and Adoption",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Entaina/pi-adoption-otel.git"
+  },
+  "homepage": "https://github.com/Entaina/pi-adoption-otel#readme",
+  "bugs": {
+    "url": "https://github.com/Entaina/pi-adoption-otel/issues"
+  },
+  "publishConfig": { "access": "public" },
   "keywords": ["pi-package", "pi", "opentelemetry", "otlp", "adoption"],
   "files": ["src", "README.md", "LICENSE"],
   "pi": { "extensions": ["./src/index.ts"] },
